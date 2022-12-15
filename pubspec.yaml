@@ -31,7 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.2.1
-  get: ^4.6.5
+  
+  go_router: ^5.2.4
   google_fonts: ^3.0.1
 
 dev_dependencies:
@@ -64,7 +65,6 @@ flutter:
     - family: GT Sectra Fine
       fonts:
         - asset: assets/fonts/GT Sectra Fine Regular.ttf
-        
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
