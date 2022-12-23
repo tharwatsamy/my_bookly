@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+
 class SlidingText extends StatelessWidget {
   const SlidingText({
     Key? key,
