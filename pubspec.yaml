@@ -33,6 +33,7 @@ dependencies:
   equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.1
   font_awesome_flutter: ^10.2.1
   go_router: ^5.2.4
   google_fonts: ^3.0.1
