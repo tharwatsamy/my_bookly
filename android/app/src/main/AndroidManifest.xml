@@ -1,9 +1,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bookly">
+     <uses-permission android:name="android.permission.INTERNET"/> 
+<queries>
+  <intent>
+    <action android:name="android.intent.action.VIEW" />
+    <data android:scheme="https" />
+  </intent>
+
+  
+</queries>
    <application
         android:label="bookly"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
+
+        >
         <activity
             android:name=".MainActivity"
             android:exported="true"
